@@ -1,9 +1,9 @@
-require_relative "./src/app"
+require_relative './src/app'
 
 def main
   app = App.new
 
-	app.menu
+  app.menu
 end
 
 main
