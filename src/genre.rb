@@ -1,15 +1,16 @@
-require_relative 'music_album'
+require_relative './item'
+
 class Genre
-	attr_reader :name, :items
+  attr_accessor :name, :items, :id
 
-	def initialize(name)
-		@id = Random.new.rand(1..1000)
-		@name = name
-		@items = []
-	end
+  def initialize(name)
+    @id = Random.rand(1..1000)
+    @name = name
+    @items = []
+  end
 
-	def add_item(item)
-		@items.push(item)
-		item.genre = self
-	end
+  def add_item(item)
+    item.add_genre(self)
+    @items << item unless @items.include?(item)
+  end
 end

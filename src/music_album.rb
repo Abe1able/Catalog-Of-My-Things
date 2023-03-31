@@ -1,20 +1,16 @@
-require_relative 'items'
-require_relative 'genre'
+require_relative './item'
 
 class MusicAlbum < Item
-	attr_accessor :name, :genre, :publish_date
-	attr_reader :on_spotify
+  attr_accessor :on_soundcloud
 
-	def initialize(name, publish_date, on_spotify = false)
-		super(publish_date)
-		@name = name
-		@on_spotify = on_spotify
-	end
+  def initialize(publish_date, on_soundcloud: true)
+    super(publish_date)
+    @on_soundcloud = on_soundcloud
+  end
 
-	def can_be_archived?
-		super && @on_spotify
-	end
+  private
 
-	private :can_be_archived?
-
+  def can_be_archived?
+    super && @on_soundcloud
+  end
 end
