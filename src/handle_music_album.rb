@@ -21,6 +21,7 @@ module HandleMusicAlbums
     music_album = MusicAlbum.new(publish_date, on_soundcloud: on_soundcloud)
     create_an_item(music_album)
     @music_albums << music_album unless @music_albums.include?(music_album)
+    save_music_albums
   end
 
   def load_music_albums
@@ -49,7 +50,6 @@ module HandleMusicAlbums
   def create_music_albums_instance(music_albums)
     music_albums_instances = []
     music_albums.each do |music_album|
-      create music album
       music_albums_instances << music_album_instance = MusicAlbum.new(music_album['publish_date'],
                                                                       on_soundcloud: music_album['on_soundcloud'])
       create_association_instances(music_album_instance, music_album)

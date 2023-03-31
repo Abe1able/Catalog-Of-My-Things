@@ -1,0 +1,32 @@
+[
+  {
+    "publish_date": "2020-01-01",
+    "on_soundcloud": true,
+    "genre": {
+      "name": "Rock"
+    },
+    "author": {
+      "first_name": "Derrick",
+      "last_name": "Herbert"
+    },
+    "label": {
+      "title": "gift",
+      "color": "red"
+    }
+  },
+  {
+    "publish_date": "2020-01-01",
+    "on_soundcloud": true,
+    "genre": {
+      "name": "Romance"
+    },
+    "author": {
+      "first_name": "Greg",
+      "last_name": "Pot"
+    },
+    "label": {
+      "title": "New",
+      "color": "Rde"
+    }
+  }
+]

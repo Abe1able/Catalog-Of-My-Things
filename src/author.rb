@@ -1,10 +1,9 @@
 require_relative './items'
 
-class Author < Item
+class Author
   attr_accessor :first_name, :last_name, :items, :id
 
   def initialize(first_name, last_name)
-    super(items)
     @id = Random.rand(1..1000)
     @first_name = first_name
     @last_name = last_name

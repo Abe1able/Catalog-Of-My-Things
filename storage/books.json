@@ -42,5 +42,65 @@
       "first_name": "Abel",
       "last_name": "Setou"
     }
+  },
+  {
+    "id": 841,
+    "publish_date": "2020-03-03",
+    "publisher": "Dean",
+    "cover_state": "good",
+    "label": {
+      "id": 759,
+      "title": "New",
+      "color": "Yellow"
+    },
+    "genre": {
+      "id": 516,
+      "name": "TrueLife"
+    },
+    "author": {
+      "id": 737,
+      "first_name": "Greg",
+      "last_name": "Porter"
+    }
+  },
+  {
+    "id": 97,
+    "publish_date": "2020-03-03",
+    "publisher": "HeadHouse",
+    "cover_state": "good",
+    "label": {
+      "id": 47,
+      "title": "New",
+      "color": "Yellow"
+    },
+    "genre": {
+      "id": 878,
+      "name": "Romance"
+    },
+    "author": {
+      "id": 949,
+      "first_name": "Greg",
+      "last_name": "Porter"
+    }
+  },
+  {
+    "id": 51,
+    "publish_date": "2020",
+    "publisher": "redfort",
+    "cover_state": "goood",
+    "label": {
+      "id": 832,
+      "title": "gift",
+      "color": "Red"
+    },
+    "genre": {
+      "id": 190,
+      "name": "Rock"
+    },
+    "author": {
+      "id": 386,
+      "first_name": "Donald",
+      "last_name": "Dennis"
+    }
   }
 ]

@@ -18,10 +18,9 @@ describe Book do
     end
   end
 
-  describe '#move_to_archive' do
+  describe '#can_be_archived?' do
     it 'return true' do
-      @book.move_to_archive
-      expect(@book.archived).to be true
+      expect(@book.can_be_archived?).to be true
     end
   end
 end

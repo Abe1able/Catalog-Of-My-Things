@@ -15,7 +15,7 @@ describe Label do
   describe '#add_item' do
     it 'should return a non-empty items array' do
       item = Item.new('2001-01-16')
-      @label.items << item
+      @label.add_item(item)
       expect(@label.items.empty?).to be false
     end
   end

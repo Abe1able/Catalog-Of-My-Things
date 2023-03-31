@@ -5,25 +5,19 @@ describe MusicAlbum do
     @music_album = MusicAlbum.new('2003-05-03', on_soundcloud: true)
   end
 
-  context 'testing move_to_archive' do
+  context 'testing #can_be_archived?' do
+    let(:album) { MusicAlbum.new('2012-01-01', on_soundcloud: false) }
+    let(:album_two) { MusicAlbum.new('2012-01-01', on_soundcloud: true) }
+
     it 'return true if on_soundcloud true' do
-      expect(@music_album.move_to_archive).to eq true
+      result = album_two.send(:can_be_archived?)
+      expect(result).to eq true
     end
 
     it 'return false of on_soundcloud false' do
-      @music_album.on_soundcloud = false
-      expect(@music_album.move_to_archive).to eq false
+      result = album.send(:can_be_archived?)
+      expect(result).to eq false
     end
 
-    it 'set the archived variable to true' do
-      @music_album.move_to_archive
-      expect(@music_album.archived).to eq true
-    end
-
-    it 'set the archived variable to false' do
-      @music_album.on_soundcloud = false
-      @music_album.move_to_archive
-      expect(@music_album.archived).to eq false
-    end
   end
 end

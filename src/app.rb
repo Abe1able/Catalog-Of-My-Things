@@ -74,17 +74,17 @@ class App
   def selected_option(options)
     case options
     when '1'
-      puts list_books
+      list_books
     when '2'
-      puts list_all_music_albums
+      list_all_music_albums
     when '3'
-      puts list_games
+      list_games
     when '4'
-      puts list_all_genre
+      list_all_genre
     when '5'
-      puts list_labels
+      list_labels
     when '6'
-      puts list_author
+      list_author
     when '7'
       add_book
     when '8'
