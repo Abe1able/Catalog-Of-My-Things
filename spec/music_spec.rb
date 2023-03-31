@@ -18,6 +18,5 @@ describe MusicAlbum do
       result = album.send(:can_be_archived?)
       expect(result).to eq false
     end
-
   end
 end
