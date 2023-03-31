@@ -53,10 +53,11 @@ The app help you to keep recods about any items you own, thing like
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Video Descriptio -->
 ## Video Description <a name="vd-disc"></a>
 
 In this recorder video we are describing how we built this amazing project as a team.
-[Video](https://drive.google.com/file/d/1mBwUzN_XVBGyrhWCu8W1X64gilfJJ2Ak/view?usp=sharing)
+[Video](https://drive.google.com/file/d/1pyj5lvYeDTnaBpanCldYUnvPejqxZDWw/view?usp=share_link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
