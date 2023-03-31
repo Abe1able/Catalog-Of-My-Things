@@ -1,0 +1,46 @@
+[
+  {
+    "id": 302,
+    "publish_date": "2021-04-09",
+    "publisher": "Netflix",
+    "cover_state": "Good",
+    "label": {
+      "id": 695,
+      "title": "Death Stranding",
+      "color": "Blue"
+    },
+    "genre": {
+      "id": 997,
+      "name": "Drama"
+    },
+    "author": {
+      "id": 196,
+      "first_name": "Sam",
+      "last_name": "Porter"
+    },
+    "source": {
+      "id": 664,
+      "name": "The Library"
+    }
+  },
+  {
+    "id": 682,
+    "publish_date": "2023-03-30",
+    "publisher": "Jaccy",
+    "cover_state": "Good",
+    "label": {
+      "id": 209,
+      "title": "Gift",
+      "color": "Pink"
+    },
+    "genre": {
+      "id": 919,
+      "name": "History"
+    },
+    "author": {
+      "id": 210,
+      "first_name": "Abel",
+      "last_name": "Setou"
+    }
+  }
+]

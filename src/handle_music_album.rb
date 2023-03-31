@@ -38,7 +38,6 @@ module HandleMusicAlbums
         on_soundcloud: music_album.on_soundcloud,
         genre: { name: music_album.genre.name },
         author: { first_name: music_album.author.first_name, last_name: music_album.author.last_name },
-        source: { name: music_album.source.name },
         label: { title: music_album.label.title, color: music_album.label.color }
       }
     end
@@ -50,7 +49,7 @@ module HandleMusicAlbums
   def create_music_albums_instance(music_albums)
     music_albums_instances = []
     music_albums.each do |music_album|
-      # create music album
+      create music album
       music_albums_instances << music_album_instance = MusicAlbum.new(music_album['publish_date'],
                                                                       on_soundcloud: music_album['on_soundcloud'])
       create_association_instances(music_album_instance, music_album)
@@ -63,6 +62,5 @@ module HandleMusicAlbums
     item_instance.add_genre(Genre.new(item['genre']['name']))
     item_instance.add_author(Author.new(item['author']['first_name'], item['author']['last_name']))
     item_instance.add_label(Label.new(item['label']['title'], item['label']['color']))
-    item_instance.add_source(Source.new(item['source']['name']))
   end
 end

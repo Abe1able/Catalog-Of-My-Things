@@ -1,4 +1,4 @@
-require_relative './item'
+require_relative './items'
 
 class MusicAlbum < Item
   attr_accessor :on_soundcloud
