@@ -1,18 +1,3 @@
-CREATE TABLE movie (
-    id SERIAL PRIMARY KEY,
-    genre_id INTEGER REFERENCES genre(id),
-    author_id INTEGER REFERENCES author(id),
-    source_id INTEGER REFERENCES source(id),
-    label_id INTEGER REFERENCES label(id),
-    publish_date DATE,
-    archived BOOLEAN
-);
-
-CREATE TABLE source (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255)
-);
-
 CREATE TABLE authors (
   id INT GENERATED ALWAYS AS IDENTITY,
   first_name VARCHAR(30),
@@ -48,15 +33,8 @@ CREATE TABLE music_albums (
     on_spotify BOOLEAN,
     archived BOOLEAN,
     genre_id INT,
-    genre_name VARCHAR(150),
     author_id INT,
-    author_first_name VARCHAR(150),
-    author_last_name VARCHAR(150),
-    source_id INT,
-    source_name VARCHAR(150),
     label_id INT,
-    label_name VARCHAR(150),
-    label_color VARCHAR(150),
 
     PRIMARY KEY (id),
     CONSTRAINT fk_genres
@@ -65,9 +43,6 @@ CREATE TABLE music_albums (
     CONSTRAINT fk_author
         FOREIGN KEY (author_id)
             REFERENCES  author(id),
-    CONSTRAINT fk_source
-        FOREIGN KEY (source_id)
-            REFERENCES  source(id),
     CONSTRAINT fk_label
         FOREIGN KEY (label_id)
             REFERENCES  label(id)
