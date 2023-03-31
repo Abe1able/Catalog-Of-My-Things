@@ -1,5 +1,5 @@
-require_relative '../item'
-require_relative '../genre'
+require_relative '../src/items'
+require_relative '../src/genre'
 
 describe Genre do
   before(:each) do
