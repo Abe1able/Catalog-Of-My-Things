@@ -24,7 +24,7 @@ module HandleGame
     option = multiplayer == 'y'
     new_game = Game.new(last_played, publish_date, multiplayer: option)
     games << new_game unless games.include?(new_game)
-    #create_an_item(new_game)
+    # create_an_item(new_game)
     save_game(games, new_game)
     @games = load_games
     @authors = load_authors
