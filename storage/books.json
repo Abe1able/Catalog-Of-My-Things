@@ -1,0 +1,106 @@
+[
+  {
+    "id": 302,
+    "publish_date": "2021-04-09",
+    "publisher": "Netflix",
+    "cover_state": "Good",
+    "label": {
+      "id": 695,
+      "title": "Death Stranding",
+      "color": "Blue"
+    },
+    "genre": {
+      "id": 997,
+      "name": "Drama"
+    },
+    "author": {
+      "id": 196,
+      "first_name": "Sam",
+      "last_name": "Porter"
+    },
+    "source": {
+      "id": 664,
+      "name": "The Library"
+    }
+  },
+  {
+    "id": 682,
+    "publish_date": "2023-03-30",
+    "publisher": "Jaccy",
+    "cover_state": "Good",
+    "label": {
+      "id": 209,
+      "title": "Gift",
+      "color": "Pink"
+    },
+    "genre": {
+      "id": 919,
+      "name": "History"
+    },
+    "author": {
+      "id": 210,
+      "first_name": "Abel",
+      "last_name": "Setou"
+    }
+  },
+  {
+    "id": 841,
+    "publish_date": "2020-03-03",
+    "publisher": "Dean",
+    "cover_state": "good",
+    "label": {
+      "id": 759,
+      "title": "New",
+      "color": "Yellow"
+    },
+    "genre": {
+      "id": 516,
+      "name": "TrueLife"
+    },
+    "author": {
+      "id": 737,
+      "first_name": "Greg",
+      "last_name": "Porter"
+    }
+  },
+  {
+    "id": 97,
+    "publish_date": "2020-03-03",
+    "publisher": "HeadHouse",
+    "cover_state": "good",
+    "label": {
+      "id": 47,
+      "title": "New",
+      "color": "Yellow"
+    },
+    "genre": {
+      "id": 878,
+      "name": "Romance"
+    },
+    "author": {
+      "id": 949,
+      "first_name": "Greg",
+      "last_name": "Porter"
+    }
+  },
+  {
+    "id": 51,
+    "publish_date": "2020",
+    "publisher": "redfort",
+    "cover_state": "goood",
+    "label": {
+      "id": 832,
+      "title": "gift",
+      "color": "Red"
+    },
+    "genre": {
+      "id": 190,
+      "name": "Rock"
+    },
+    "author": {
+      "id": 386,
+      "first_name": "Donald",
+      "last_name": "Dennis"
+    }
+  }
+]

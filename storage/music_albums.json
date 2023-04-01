@@ -1,0 +1,62 @@
+[
+  {
+    "publish_date": "2020-01-01",
+    "on_soundcloud": true,
+    "genre": {
+      "name": "Rock"
+    },
+    "author": {
+      "first_name": "Derrick",
+      "last_name": "Herbert"
+    },
+    "label": {
+      "title": "gift",
+      "color": "red"
+    }
+  },
+  {
+    "publish_date": "2020-01-01",
+    "on_soundcloud": true,
+    "genre": {
+      "name": "Romance"
+    },
+    "author": {
+      "first_name": "Greg",
+      "last_name": "Pot"
+    },
+    "label": {
+      "title": "New",
+      "color": "Rde"
+    }
+  },
+  {
+    "publish_date": "2020-02-02",
+    "on_soundcloud": false,
+    "genre": {
+      "name": "Alternative"
+    },
+    "author": {
+      "first_name": "Grant",
+      "last_name": "Hugh"
+    },
+    "label": {
+      "title": "New",
+      "color": "Yellow"
+    }
+  },
+  {
+    "publish_date": "2021-09-09",
+    "on_soundcloud": false,
+    "genre": {
+      "name": "Hip-Hop"
+    },
+    "author": {
+      "first_name": "Curtis",
+      "last_name": "Jackson"
+    },
+    "label": {
+      "title": "December",
+      "color": "Purple"
+    }
+  }
+]
