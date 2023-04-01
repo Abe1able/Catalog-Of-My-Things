@@ -88,8 +88,6 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-Example command:
-
 ```sh
   cd Catalog-of-My-Things
   bundle install
@@ -99,8 +97,6 @@ Example command:
 
 To run the project, execute the following command:
 
-Example command:
-
 ```sh
   ruby main.rb
 ```
@@ -108,8 +104,6 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
-Example command:
 
 ```sh
   rspec spec
@@ -163,7 +157,7 @@ Feel free to check the [issues page](https://github.com/Abe1able/Catalog-Of-My-T
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project...
+If you like this project, please give us ⭐️⭐️⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
