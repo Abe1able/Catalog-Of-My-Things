@@ -57,7 +57,7 @@ The app help you to keep recods about any items you own, thing like
 ## Video Description <a name="vd-disc"></a>
 
 In this recorder video we are describing how we built this amazing project as a team.
-[Video](https://drive.google.com/file/d/1pyj5lvYeDTnaBpanCldYUnvPejqxZDWw/view?usp=share_link)
+[Video](https://drive.google.com/file/d/1hVKjymaiU41j4Zyh_V63JYbYQMw9XGvY/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
